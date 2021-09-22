@@ -88,6 +88,7 @@ file_install() {
     echo "-------------------------------------------------------"
     echo "Starting File install."
     echo "-------------------------------------------------------"
+    mkdir /var/www/
     cd /var/www/
     sudo git clone https://github.com/real2two/dashactyl.git
     cd dashactyl
